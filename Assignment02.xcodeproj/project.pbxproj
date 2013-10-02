@@ -18,6 +18,11 @@
 		B99E0D9917FCA79900B35D4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99E0D9817FCA79900B35D4B /* Default-568h@2x.png */; };
 		B99E0D9C17FCA79900B35D4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99E0D9A17FCA79900B35D4B /* MainStoryboard.storyboard */; };
 		B99E0D9F17FCA79900B35D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E0D9E17FCA79900B35D4B /* ViewController.m */; };
+		B99E0DA717FCA83100B35D4B /* Curve.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E0DA617FCA83100B35D4B /* Curve.m */; };
+		B99E0DAA17FCA85300B35D4B /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E0DA917FCA85300B35D4B /* CurveView.m */; };
+		B99E0DAC17FCA8D200B35D4B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99E0DAB17FCA8D200B35D4B /* CoreImage.framework */; };
+		B99E0DAF17FCA96B00B35D4B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B99E0DAD17FCA96B00B35D4B /* first.png */; };
+		B99E0DB017FCA96B00B35D4B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99E0DAE17FCA96B00B35D4B /* first@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,13 @@
 		B99E0D9B17FCA79900B35D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B99E0D9D17FCA79900B35D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B99E0D9E17FCA79900B35D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B99E0DA517FCA83100B35D4B /* Curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curve.h; sourceTree = "<group>"; };
+		B99E0DA617FCA83100B35D4B /* Curve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curve.m; sourceTree = "<group>"; };
+		B99E0DA817FCA85300B35D4B /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		B99E0DA917FCA85300B35D4B /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		B99E0DAB17FCA8D200B35D4B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B99E0DAD17FCA96B00B35D4B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B99E0DAE17FCA96B00B35D4B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99E0DAC17FCA8D200B35D4B /* CoreImage.framework in Frameworks */,
 				B99E0D8317FCA79900B35D4B /* UIKit.framework in Frameworks */,
 				B99E0D8517FCA79900B35D4B /* Foundation.framework in Frameworks */,
 				B99E0D8717FCA79900B35D4B /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +86,7 @@
 		B99E0D8117FCA79900B35D4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B99E0DAB17FCA8D200B35D4B /* CoreImage.framework */,
 				B99E0D8217FCA79900B35D4B /* UIKit.framework */,
 				B99E0D8417FCA79900B35D4B /* Foundation.framework */,
 				B99E0D8617FCA79900B35D4B /* CoreGraphics.framework */,
@@ -86,6 +100,10 @@
 				B99E0D9117FCA79900B35D4B /* AppDelegate.h */,
 				B99E0D9217FCA79900B35D4B /* AppDelegate.m */,
 				B99E0D9A17FCA79900B35D4B /* MainStoryboard.storyboard */,
+				B99E0DA517FCA83100B35D4B /* Curve.h */,
+				B99E0DA617FCA83100B35D4B /* Curve.m */,
+				B99E0DA817FCA85300B35D4B /* CurveView.h */,
+				B99E0DA917FCA85300B35D4B /* CurveView.m */,
 				B99E0D9D17FCA79900B35D4B /* ViewController.h */,
 				B99E0D9E17FCA79900B35D4B /* ViewController.m */,
 				B99E0D8917FCA79900B35D4B /* Supporting Files */,
@@ -96,6 +114,8 @@
 		B99E0D8917FCA79900B35D4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B99E0DAD17FCA96B00B35D4B /* first.png */,
+				B99E0DAE17FCA96B00B35D4B /* first@2x.png */,
 				B99E0D8A17FCA79900B35D4B /* Assignment02-Info.plist */,
 				B99E0D8B17FCA79900B35D4B /* InfoPlist.strings */,
 				B99E0D8E17FCA79900B35D4B /* main.m */,
@@ -163,6 +183,8 @@
 				B99E0D9717FCA79900B35D4B /* Default@2x.png in Resources */,
 				B99E0D9917FCA79900B35D4B /* Default-568h@2x.png in Resources */,
 				B99E0D9C17FCA79900B35D4B /* MainStoryboard.storyboard in Resources */,
+				B99E0DAF17FCA96B00B35D4B /* first.png in Resources */,
+				B99E0DB017FCA96B00B35D4B /* first@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +198,8 @@
 				B99E0D8F17FCA79900B35D4B /* main.m in Sources */,
 				B99E0D9317FCA79900B35D4B /* AppDelegate.m in Sources */,
 				B99E0D9F17FCA79900B35D4B /* ViewController.m in Sources */,
+				B99E0DA717FCA83100B35D4B /* Curve.m in Sources */,
+				B99E0DAA17FCA85300B35D4B /* CurveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
